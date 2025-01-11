@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef, useState } from "react";
-const Form = ({ listData, setListData, idEdit, isEdit, setIsEdit }) => {
+const Form = ({ listData, setListData, idEdit, setIdEdit, isEdit, setIsEdit }) => {
     const initialValue = { name: "", code: "", capital: "" };
     const [dataForm, setDataForm] = useState(initialValue);
     const refCode = useRef();
@@ -34,6 +34,8 @@ const Form = ({ listData, setListData, idEdit, isEdit, setIsEdit }) => {
                 newArray[idEdit] = dataForm;
                 setIsEdit(false);
                 window.alert("Data updated successfully!");
+                setIsEdit(false);
+                setIdEdit(null);
             } else {
                 newArray.unshift(dataForm);
                 window.alert("Data added successfully!");

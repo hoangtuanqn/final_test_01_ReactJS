@@ -1,22 +1,27 @@
 [
     {
         "code": "VN",
-        "name": "Việt Nam 1",
-        "capital": "Hà Nội"
+        "name": "Vietnam",
+        "capital": "Hanoi"
     },
     {
-        "code": "VN",
-        "name": "Việt Nam 2",
-        "capital": "Hà Nội"
+        "code": "USA",
+        "name": "United States",
+        "capital": "Washington"
     },
     {
-        "code": "VN",
-        "name": "Việt Nam 3",
-        "capital": "Hà Nội"
+        "code": "ITL",
+        "name": "Italy",
+        "capital": "Rome"
     },
     {
-        "code": "VN",
-        "name": "Việt Nam 4",
-        "capital": "Hà Nội"
+        "code": "FR",
+        "name": "France",
+        "capital": "Paris"
+    },
+    {
+        "code": "JP",
+        "name": "Japan",
+        "capital": "Tokyo"
     }
 ]
